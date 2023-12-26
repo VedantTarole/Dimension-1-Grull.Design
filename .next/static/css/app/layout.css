@@ -1,0 +1,318 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[12].use[3]!./src/app/globals.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[13].use[5]!./src/components/cursor/cursor.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.cursor {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  border: 1px solid white;
+  position: fixed;
+  z-index: 999;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[2].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.js","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Inter_a64ecd';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/ec159349637c90ad-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Inter_a64ecd';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/513657b02c5c193f-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: '__Inter_a64ecd';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/fd4db3eb5472fc27-s.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: '__Inter_a64ecd';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/51ed15f9841b9f9d-s.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: '__Inter_a64ecd';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/05a31a2ca4975f99-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Inter_a64ecd';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/d6b16ce4a6175f26-s.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Inter_a64ecd';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Inter_Fallback_a64ecd';src: local("Arial");ascent-override: 90.20%;descent-override: 22.48%;line-gap-override: 0.00%;size-adjust: 107.40%
+}.__className_a64ecd {font-family: '__Inter_a64ecd', '__Inter_Fallback_a64ecd';font-style: normal
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[9].use[5]!./src/components/header/nav/style.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.style_menu__bHiI5 {
+  margin-top: 2vh;
+  height: 100vh;
+  width: 50vw;
+  background-color: rgb(41, 41, 41);
+  position: fixed;
+  right: 28vw;
+  top: 0;
+  color: white;
+  z-index: 999;
+  opacity: 98%;
+}
+.style_menu__bHiI5 .style_body__Z1Nzz {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.style_menu__bHiI5 .style_body__Z1Nzz .style_nav__Ujtdr {
+  display: flex;
+  flex-direction: column;
+  font-size: 56px;
+  gap: 12px;
+  margin-top: 40px;
+}
+.style_menu__bHiI5 .style_body__Z1Nzz .style_nav__Ujtdr .style_header__BdzRk {
+  color: rgb(153, 153, 153);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+.style_menu__bHiI5 .style_body__Z1Nzz .style_nav__Ujtdr a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[9].use[5]!./src/components/header/style.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.style_header__zrkNW {
+  padding: 30px;
+  position: fixed;
+  left: 21vw;
+  bottom: 3vh;
+  z-index: 1009;
+}
+.style_header__zrkNW .style_button_container__x21nx {
+  background-color: rgb(41, 41, 41);
+  width: 49vw;
+  height: 100px;
+  display: flex;
+  border-radius: 25px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  opacity: 90%;
+}
+.style_header__zrkNW .style_button_container__x21nx .style_button__QO8wg {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #455ce9;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.style_header__zrkNW .style_burger__EVUa4 {
+  width: 100%;
+}
+.style_header__zrkNW .style_burger__EVUa4::after, .style_header__zrkNW .style_burger__EVUa4::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 40%;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  transition: transform 0.3s;
+}
+.style_header__zrkNW .style_burger__EVUa4::after {
+  top: -5px;
+}
+.style_header__zrkNW .style_burger__EVUa4::before {
+  top: 5px;
+}
+.style_header__zrkNW .style_burgerActive__9lgJv::after {
+  transform: rotate(45deg);
+  top: -1px;
+}
+.style_header__zrkNW .style_burgerActive__9lgJv::before {
+  transform: rotate(-45deg);
+  top: 0px;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[13].use[5]!./src/components/portfolio/portfolio.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: center;
+  overflow: hidden;
+}
+
+.portfolio {
+  position: relative;
+}
+.portfolio .progress {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: orange;
+  font-size: 36px;
+}
+@media (max-width: 738px) {
+  .portfolio .progress {
+    padding-top: calc(100vh - 100px);
+    font-size: 24px;
+  }
+}
+.portfolio .progress .progressBar {
+  background-color: white;
+}
+.portfolio .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.portfolio .container .wrapper {
+  max-width: 1366px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+@media (max-width: 738px) {
+  .portfolio .container .wrapper {
+    flex-direction: column;
+  }
+}
+.portfolio .container .wrapper .imageContainer {
+  flex: 1 1;
+  height: 50%;
+}
+@media (max-width: 738px) {
+  .portfolio .container .wrapper .imageContainer {
+    width: 100%;
+    max-height: 300px;
+  }
+}
+.portfolio .container .wrapper .imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 738px) {
+  .portfolio .container .wrapper .imageContainer img {
+    object-fit: contain;
+  }
+}
+.portfolio .container .wrapper .textContainer {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (max-width: 738px) {
+  .portfolio .container .wrapper .textContainer {
+    transform: none !important;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+  }
+}
+.portfolio .container .wrapper .textContainer h2 {
+  font-size: 72px;
+}
+@media (max-width: 738px) {
+  .portfolio .container .wrapper .textContainer h2 {
+    font-size: 36px;
+  }
+}
+.portfolio .container .wrapper .textContainer p {
+  color: gray;
+  font-size: 20px;
+}
+@media (max-width: 738px) {
+  .portfolio .container .wrapper .textContainer p {
+    font-size: 16px;
+  }
+}
+.portfolio .container .wrapper .textContainer button {
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+}
